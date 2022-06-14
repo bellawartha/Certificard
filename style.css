@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap");
+@import url("https://pbs.twimg.com/media/D-N62ToWwAAMbP2.jpg");
+@import url("https://sothebys-com.brightspotcdn.com/dims4/default/442450e/2147483647/strip/true/crop/3577x3556+0+0/resize/1154x1147!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Ff5%2Fe2%2F1dbde72c4efe9f866f32f064aa81%2Friley-ctp-l20020-bgtq7-1-final-web-banner.jpg");
+body {
+  font-family: "Stick No Bills", sans-serif;
+  background-color: #000000;
+  background-image: url("https://pbs.twimg.com/media/D-N62ToWwAAMbP2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  background-color: #f8f8ff;
+  margin: 64px;
+  border-radius: 15px;
+  padding: 50px;
+}
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  font-weight: 200;
+  border-radius: 100px;
+  background: #f8f8ff;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  background: #f8f8ff;
+  padding: 32px;
+}
+.projetos {
+  list-style: none;
+  font-weight: 200;
+  font-size: 24px;
+}
+.items {
+  list-style-type: none;
+  font-weight: 150;
+  font-size: 20px;
+  line-height: 48px;
+}
+.items a {
+  color: black;
+  text-decoration: none;
+}
+.dark {
+  background: #000000;
+  background-image: url("https://sothebys-com.brightspotcdn.com/dims4/default/442450e/2147483647/strip/true/crop/3577x3556+0+0/resize/1154x1147!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Ff5%2Fe2%2F1dbde72c4efe9f866f32f064aa81%2Friley-ctp-l20020-bgtq7-1-final-web-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dark .container {
+  background-color: #262626;
+  color: #f8f8ff;
+}
+.dark .lista {
+  background-color: #262626;
+}
+.dark .tema button {
+  background-color: #262626;
+  color: #f8f8ff;
+  border: 2px solid #737373;
+}
